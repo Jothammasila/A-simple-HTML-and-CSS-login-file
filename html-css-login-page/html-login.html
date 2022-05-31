@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css-login.css" />
+  </head>
+  <body id="body">
+    <div class="Login bkgrd">
+      <img src=".vscode/Media/jotham.jpg" class="logo" alt="Can't find logo" />
+      <h1 id="login">Login</h1>
+      <div class="Username">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="usename or email"
+          minlength="4"
+          maxlength="50"
+          autofocus
+        />
+      </div>
+      <div class="password">
+        <label for="pswd">Password</label>
+        <input type="password" id="pswd" placeholder="Password" minlength="8" />
+      </div>
+      <div>
+        <a href="#" id="forgot-pswd">Forgot Password</a>
+      </div>
+      <button class="login-button" type="submit">Login</button>
+      <div>
+        <a href="#">Don't have an account? Create an account.</a>
+      </div>
+    </div>
+    <div id="footer">
+      <footer>&copy; Mars Labs. 2022</footer>
+    </div>
+  </body>
+</html>
